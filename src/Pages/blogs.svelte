@@ -6,7 +6,7 @@
  
        <h1 class="mb-4 text-center">Using the JSONForge API with React to Build a Todo App</h1>
        
-       <p>In this tutorial, we will be using the JSONForge API to build a todo app in React. The app will allow users to create, read, update, and delete todos using HTTP requests.</p>
+       <p style="text-align: justify;">In this tutorial, we will be using the JSONForge API to build a todo app in React. The app will allow users to create, read, update, and delete todos using HTTP requests.</p>
        
        <h4>Prerequisites</h4>
        
@@ -36,15 +36,15 @@
        
        <img class="img-fluid col-12 my-3" src="/img/p3.png" alt="code sample" />
        
-       <p>The Todo component will take in a todo object as a prop and display the todo's title and description. It will also have a button that will allow the user to delete the todo.</p>
+       <p style="text-align: justify;">The Todo component will take in a todo object as a prop and display the todo's title and description. It will also have a button that will allow the user to delete the todo.</p>
        
        <h4>Fetching Todos from the API</h4>
        
-       <p>Next, let's fetch the list of todos from the API and display them in our app. We will use the useEffect hook to make the API call when the component mounts:</p>
+       <p style="text-align: justify;">Next, let's fetch the list of todos from the API and display them in our app. We will use the useEffect hook to make the API call when the component mounts:</p>
        
        <img class="img-fluid col-12 my-3" src="/img/p4.png" alt="code sample" />
        
-       <p>In this code, we use the useState hook to create a state variable called todos that initially contains an empty array. We use the useEffect hook to make a GET request to the API when the component mounts and store the result in the todos state variable.</p>
+       <p style="text-align: justify;">In this code, we use the useState hook to create a state variable called todos that initially contains an empty array. We use the useEffect hook to make a GET request to the API when the component mounts and store the result in the todos state variable.</p>
        
        <p>We then use the map function to render a Todo component for each todo in the todos array.</p>
        
