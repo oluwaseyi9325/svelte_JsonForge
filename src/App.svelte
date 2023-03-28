@@ -3,11 +3,13 @@
   import Footer from './component/footer.svelte';
   import Guides from './component/guidesCompo.svelte';
   import Navbarb from './component/navbarb.svelte';
+  import Blogs from './Pages/blogs.svelte';
   import Index from './Pages/index.svelte';
   import NotFound from './Pages/NotFound.svelte';
 	let routes= {
 		'/': Index,
 		'/guide': Guides,
+		'/blogs':Blogs,
 		'/*': NotFound
 	};
 </script>
