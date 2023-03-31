@@ -13,8 +13,8 @@
        <p>To follow along with this tutorial, you should have the following installed on your computer:</p>
        
        <ul>
-         <li>Node.js (https://nodejs.org)</li>
-         <li>NPM (https://www.npmjs.com/)</li>
+         <li><b>Node.js (https://nodejs.org)</b></li>
+         <li><b>NPM (https://www.npmjs.com/)</b></li>
          <li>React</li>
        </ul>
        

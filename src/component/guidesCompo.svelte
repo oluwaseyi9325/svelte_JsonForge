@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import { each } from "svelte/internal";
 
 </script>
@@ -39,10 +39,10 @@
     </div>
 
        
-</main>
+</main> -->
 
 
-<!-- <script>
+ <script>
     let request = `fetch('https://onrender/jsonforge/users')\n  .then(response => response.json())\n  .then(json => console.log(json));`;
     let isCopied = false;
   
@@ -55,9 +55,9 @@
       document.body.removeChild(el);
       isCopied = true;
     }
-  </script> -->
+  </script> 
   
-  <!-- <section>
+   <section>
     <h2>Make a GET request</h2>
     <p>
       You can retrieve data from JSON Forge by sending a GET request to the API endpoint. The endpoint URL is formed as follows:
@@ -75,10 +75,10 @@
       <pre class="request-box__code">{request}</pre>
     </div>
     
-  </section> -->
+  </section> 
 
   
-  <!-- <style>
+   <style>
     section {
       margin: 2rem 0;
     }
@@ -124,5 +124,5 @@
       font-family: 'Roboto Mono', monospace;
       overflow-x: auto;
     }
-  </style> -->
-  
+  </style> 
+   

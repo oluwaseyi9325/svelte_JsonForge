@@ -1,3 +1,7 @@
+<script>
+  import Modal from "./modal.svelte";
+
+</script>
 <style>
     /* .banner h1 {
   font-size: 4rem;
@@ -34,12 +38,13 @@
         <h1 class="display-4 fw-bold">JSONforge Api</h1>
         
         <p class="">
-            The ultimate API playground for developers, all while being a <span class="bg-white text-danger h5">FAKE API</span> testing and prototyping, with additional features and improved performance compared to JSONPlaceholder.
+            The ultimate API playground for developers, all while being a <span class="bg-white border border-2 rounded-pill h5 p-2" style="color:#00bfa5">FAKE API</span> testing and prototyping, with additional features and improved performance compared to JSONPlaceholder.
           </p>
         
-        <a href="#" class="btn btn-lg btn-success mt-3">Get Started</a>
+        <a  class="btn btn-lg btn-success mt-3"  data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</a>
       </div>
     </div>
+    <Modal/>
   </div>
   
  

@@ -1,7 +1,9 @@
 <script>
-  import GuidesCompo from "../component/guidesCompo.svelte";
+  import Get from "../component/get.svelte";
+import GuidesCompo from "../component/guidesCompo.svelte";
 
 </script>
 <main>
-    <GuidesCompo/>
+    <!-- <GuidesCompo/> -->
+    <Get/>
 </main>
